@@ -1,0 +1,340 @@
+:root {
+  --primary-text-color: #212121;
+  --marked-text-color: #2196f3;
+  --secondary-text-color: #757575;
+  --contrast-text-color: #ffffff;
+  --footer-text-color: #rgba(255, 255, 255, 0.6);
+  --primary-background-color: #ffffff;
+  --icons-background-color: #f5f4fa;
+  --secondary-background-color: #f5f4fa;
+  --footer-background-color: #2f303a;
+  --button-background-color: #2196f3;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+header {
+  background-color: var(--primary-background-color);
+  font-family: "Raleway", sans-serif;
+}
+
+footer {
+  background-color: var(--footer-background-color);
+  color: var(--footer-text-color);
+  font-family: "Raleway", sans-serif;
+}
+
+/*utilites*/
+
+link {
+  text-decoration: none;
+  color: none;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/*header*/
+
+.section {
+  background-color: var(--primary-background-color);
+}
+
+.container .main-nav :hover,
+.container .main-nav :focus {
+  color: var(--marked-text-color);
+}
+
+.logo {
+  color: var(--primary-text-color);
+  font-family: "Raleway", sans-serif;
+  background-color: none;
+  letter-spacing: 0.03rem;
+}
+.logo :hover {
+  color: var(--marked-text-color);
+}
+.logo-web {
+  color: var(--marked-text-color);
+}
+
+.logo-footer {
+  color: var(--contrast-text-color);
+  font-family: "Raleway", sans-serif;
+  width: 153px;
+  height: 31px;
+  letter-spacing: 0.03rem;
+}
+
+.progets {
+  background-color: var(--primary-background-color);
+}
+
+/*site nav*/
+
+.site-nav {
+  color: var(--primary-text-color);
+  letter-spacing: 0.02rem;
+}
+
+.site-nav :hover,
+.site-nav :focus {
+  color: var(--marked-text-color);
+}
+
+.current {
+  color: var(--marked-text-color);
+}
+
+.unactive {
+  color: var(--primary-text-color);
+}
+
+.contacts-header {
+  color: var(--secondary-text-color);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-weight: 122;
+  letter-spacing: 0.02rem;
+}
+
+.contacts-header :hover,
+.contacts-header :focus {
+  color: var(--marked-text-color);
+}
+
+/* main container*/
+
+.slogan {
+  font-family: Roboto;
+  font-style: normal;
+  text-transform: uppercase;
+  text-align: center;
+  color: rgb(184, 128, 26);
+  letter-spacing: 0.06rem;
+} /*var(--contrast-text-color)*/
+
+.button {
+  color: var(--contrast-text-color);
+  background-color: var(--button-background-color);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  letter-spacing: 0.06rem;
+}
+
+.button-titel :hover,
+.button-titel :focus {
+  background-color: var(--button-background-color);
+  color: var(--contrast-text-color);
+}
+.button-titel {
+  background-color: var(--icons-background-color);
+  color: var(--primary-text-color);
+  border-radius: 4px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0.06rem;
+}
+
+.feature-list .logo {
+  background-color: var(--icons-background-color);
+}
+
+.logo {
+  background-color: var(--icons-background-color);
+}
+
+.titel {
+  color: var(--primary-text-color);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  letter-spacing: 0.03rem;
+  text-transform: uppercase;
+}
+
+.secondary-text {
+  color: var(--secondary-text-color);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  letter-spacing: 0.03rem;
+}
+
+.section-titel {
+  color: var(--primary-text-color);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  letter-spacing: 0.03rem;
+}
+
+.item-titel {
+  color: var(--contrast-text-color);
+  background-color: rgba(47, 48, 58, 0.8);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  letter-spacing: 0.03rem;
+  text-transform: uppercase;
+}
+
+.team {
+  background-color: var(--secondary-background-color);
+}
+
+.team-list {
+  background-color: var(--primary-background-color);
+}
+
+.team-name {
+  color: var(--primary-text-color);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 0.03rem;
+}
+
+.team-position {
+  color: var(--secondary-text-color);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  letter-spacing: 0.03rem;
+}
+
+.socialmedia-item :hover,
+.socialmedia-item :focus {
+  color: var(--marked-text-color);
+}
+
+.clents-list :hover,
+.clents-list :focus {
+  color: var(--marked-text-color);
+}
+
+/*footer*/
+
+.footer-main {
+  background-color: var(--footer-background-color);
+}
+
+.logo-footer {
+  color: var(--contrast-text-color);
+}
+.footer-adress {
+  color: var(--contrast-text-color);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  letter-spacing: 0.03rem;
+}
+
+.footer-contacts {
+  color: var(--secondary-text-color);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  letter-spacing: 0.03rem;
+}
+
+.footer-titel {
+  color: var(--contrast-text-color);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  letter-spacing: 0.03rem;
+  text-transform: uppercase;
+  background-color: var(--footer-background-color);
+}
+.socialmedia-footer {
+  background-color: var(--footer-background-color);
+}
+
+.ps {
+  color: var(--secondary-text-color);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  letter-spacing: 0.03rem;
+}
+
+.sm-footer {
+  background-color: var(--footer-background-color);
+}
+
+/*Portfolio main container*/
+
+.description {
+  background-color: var(--button-background-color);
+  color: var(--contrast-text-color);
+}
+
+.link :hover,
+.link :focus {
+  color: var(--marked-text-color);
+}
+
+.section-titel {
+  color: #212121;
+}
+
+.social link {
+  font-weight: 20;
+  color: rgba(0.69, 0.69, 0.72, 1);
+  text-decoration: none;
+}
+
+.contacts-header :hover,
+.contacts-header :focus {
+  color: rgba(0.13, 0.59, 0.95, 1);
+}
+
+.contacts-header:active {
+  color: turquoise;
+}
+
+.link :hover,
+.link :focus {
+  color: var(--marked-text-color);
+}
+
+.link :active {
+  color: blue;
+}
+
+.button-titel {
+  color: var(--primary-text-color);
+  background-color: var(--icons-background-color);
+}
+.button-titel:hover,
+.button-titel:focus {
+  color: var(--contrast-text-color);
+  background-color: var(--button-background-color);
+}
