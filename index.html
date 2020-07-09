@@ -28,8 +28,7 @@
             </li>
             <li class="item">
               <a class="link unactive" href="./portfolio.html" lang="ru">
-                Портфолио</a
-              >
+                Портфолио</a>
             </li>
             <li class="item">
               <a class="link unactive" href="" lang="ru"> Контакты</a>
@@ -68,20 +67,24 @@
 
     <!--Unic page contant-->
     <main>
-      <section class="section main">
+        <div class="container hero">
+            <section class="section main">
         <img src="./images/Header-img.png" alt="главная картика" width="1600" />
         <h1 class="slogan" lang="ru">
           Эффективные решения <br />
           для вашего бизнеса
         </h1>
         <button class="button order" href="" lang="ru">
-          <span>Заказать услугу</span></
-        >
+          <span>Заказать услугу</span>
       </section>
+    </div>
+      
 
       <!--Main points section-->
+
       <section class="section features">
-        <h2 class="invisible-titel" lang="ru">Сильные стороны</h2>
+          <div class="container aspects">
+               <h2 class="invisible-titel" lang="ru">Сильные стороны</h2>
         <ul class="feature-list">
           <li>
             <img
@@ -132,10 +135,13 @@
           </li>
         </ul>
       </section>
+          </div>
+       
 
       <!--What do we do section-->
       <section class="section services">
-        <h2 class="section-titel" lang="ru">Чем мы занимаемся</h2>
+          <div class="container service">
+           <h2 class="section-titel" lang="ru">Чем мы занимаемся</h2>
         <ul class="list item">
           <li>
             <img src="./images/laptop.png" alt="laptop" width="370" />
@@ -149,11 +155,14 @@
             <img src="./images/desctop.png" alt="desctop" width="370" />
             <h4 class="item-titel" lang="ru">Дизайнерские решения</h4>
           </li>
-        </ul>
+        </ul>   
+          </div>
+        
       </section>
       <!--Our team section-->
       <section class="section team">
-          <h2 class="section-titel" lang="ru">Наша команда</h2>
+          <div class="container our-team">
+           <h2 class="section-titel" lang="ru">Наша команда</h2>
           <ul class="list">
             <li class="team-list">
               <img src=".//images/Smith.png" alt="Кучеренко" width="270" />
@@ -326,11 +335,14 @@
               </div>
             </li>
           </ul>
-        </div>
+        </div>   
+          </div>
+          
       </section>
 
       <!--Our clients section-->
       <section class="section clients">
+          <div class="container our-clients">
         <h2 class="section-titel" lang="ru">Постоянные клиенты</h2>
         <!--logos-->
         <ul class="list">
@@ -365,11 +377,13 @@
             />
           </li>
         </ul>
+          </div>
+        
       </section>
     </main>
     <!--Footer of the page-->
     <footer>
-        <div class="footer">
+        <div class=" container footer">
             <div class="footer-adress">
         <address>
           <a class="logo-footer" href="./index.html">
@@ -438,11 +452,11 @@
         </form>
         </div>
         
-      </div>
+     
 
       <p class="ps">&copy; 2020 | Developed by GoIT Students</p>
         </div>
-      
+       </div>
     </footer>
   </body>
 </html>
