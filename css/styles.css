@@ -61,6 +61,10 @@ figure {
 
 /*header*/
 
+.page-header {
+    display: flex;
+}
+
 .section {
   background-color: var(--primary-background-color);
 }
@@ -78,21 +82,20 @@ figure {
   margin-left: 30px;
 }
 
-.container .main-nav {
+.main-nav {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
 }
 
-.container .main-nav :hover,
-.container .main-nav :focus {
+.main-nav :hover,
+.main-nav :focus {
   color: var(--marked-text-color);
 }
 
 .logo {
   color: var(--primary-text-color);
   font-family: 'Raleway', sans-serif;
-  background-color: none;
   letter-spacing: 0.03rem;
 
   display: flex;
@@ -164,6 +167,10 @@ figure {
   margin-left: auto;
 }
 
+.contacts-header .ul {
+    display: flex;
+}
+
 .contacts-header .item:last-child {
   margin-right: 25px;
 }
@@ -227,23 +234,20 @@ figure {
   color: var(--contrast-text-color);
   background-color: var(--button-background-color);
   font-family: Roboto;
-  font-style: normal;
   font-weight: bold;
   font-size: 16px;
   letter-spacing: 0.06rem;
 
-  position: absolute;
   width: 200px;
   height: 50px;
   left: 700px;
   top: 430px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  border: none;
 
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-top: 32px;
-  padding-bottom: 32px;
+  display: block;
+  margin: auto;
 }
 
 .button-titel :hover,
