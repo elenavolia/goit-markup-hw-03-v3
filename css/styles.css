@@ -195,10 +195,8 @@ ul {
 
 /* main container*/
 
-.section .main {
+.first {
   background-color: var(--secondary-text-color);
-  width: 1600px;
-  height: 500px;
   text-align: center;
   padding-top: 200px;
   padding-bottom: 200px;
