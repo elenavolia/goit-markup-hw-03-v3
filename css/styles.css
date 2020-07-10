@@ -167,7 +167,7 @@ figure {
   margin-left: auto;
 }
 
-.contacts-header .ul {
+.contacts-header ul {
     display: flex;
 }
 
@@ -283,7 +283,7 @@ figure {
 }
 
 .logo {
-  background-color: var(--icons-background-color);
+  background-color: var(--primary-background-color);
 }
 
 .titel {
