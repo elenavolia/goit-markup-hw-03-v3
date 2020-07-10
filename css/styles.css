@@ -52,12 +52,6 @@ ul {
   padding: 0;
 }
 
-figure {
-  background-color: var(--secondary-text-color);
-  width: 1600px;
-  height: 500px;
-  text-align: center;
-}
 
 /*header*/
 
@@ -200,6 +194,15 @@ figure {
 }
 
 /* main container*/
+
+.hero {
+  background-color: var(--secondary-text-color);
+  width: 1600px;
+  height: 500px;
+  text-align: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
 
 .slogan {
   font-family: Roboto;
