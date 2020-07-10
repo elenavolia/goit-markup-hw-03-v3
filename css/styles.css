@@ -195,7 +195,7 @@ ul {
 
 /* main container*/
 
-.hero {
+.section .main {
   background-color: var(--secondary-text-color);
   width: 1600px;
   height: 500px;
