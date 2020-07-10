@@ -100,7 +100,6 @@ figure {
 
   display: flex;
   align-items: center;
-  margin-left: 150px;
   padding: 10px;
 }
 
@@ -275,16 +274,13 @@ figure {
   margin-right: 30px;
 }
 
-.feature-list .logo {
+.sign {
   background-color: var(--icons-background-color);
 
   border-radius: 4px;
   justify-content: left;
 }
 
-.logo {
-  background-color: var(--primary-background-color);
-}
 
 .titel {
   color: var(--primary-text-color);
