@@ -52,11 +52,10 @@ ul {
   padding: 0;
 }
 
-
 /*header*/
 
 .page-header {
-    display: flex;
+  display: flex;
 }
 
 .section {
@@ -64,7 +63,6 @@ ul {
 }
 
 .container {
- 
   width: 1230px;
   padding-left: 15px;
   padding-right: 15px;
@@ -161,7 +159,7 @@ ul {
 }
 
 .contacts-header ul {
-    display: flex;
+  display: flex;
 }
 
 .contacts-header .item:last-child {
@@ -205,9 +203,11 @@ ul {
 .slogan {
   font-family: Roboto;
   font-style: normal;
+  font-size: 44px;
+  font-weight: 900;
   text-transform: uppercase;
   text-align: center;
-  color: var(--contrast-text-color)
+  color: var(--contrast-text-color);
   letter-spacing: 0.06rem;
 }
 
@@ -281,7 +281,6 @@ ul {
   border-radius: 4px;
   justify-content: left;
 }
-
 
 .titel {
   color: var(--primary-text-color);
