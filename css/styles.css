@@ -60,6 +60,8 @@ ul {
 
 .section {
   background-color: var(--primary-background-color);
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .container {
