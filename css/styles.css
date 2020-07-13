@@ -295,6 +295,11 @@ ul {
 
 .feature-sign {
   background-color: var(--icons-background-color);
+  width: 270px;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .titel {
@@ -314,8 +319,6 @@ ul {
   font-weight: normal;
   font-size: 14px;
   letter-spacing: 0.03rem;
-
-  padding: 10px;
 }
 
 .section-titel {
