@@ -284,13 +284,18 @@ ul {
 
 .feature-list {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   margin-right: 30px;
+  margin-left: 0px;
 }
 
 .sign {
   border-radius: 4px;
   justify-content: left;
+}
+
+.feature-item {
+  width: 270px;
 }
 
 .feature-sign {
