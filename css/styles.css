@@ -213,6 +213,17 @@ ul {
   letter-spacing: 0.06rem;
 }
 
+.invisible-titel {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 .services .item {
   display: flex;
   align-items: center;
@@ -278,10 +289,12 @@ ul {
 }
 
 .sign {
-  background-color: var(--icons-background-color);
-
   border-radius: 4px;
   justify-content: left;
+}
+
+.feature-sign {
+  background-color: var(--icons-background-color);
 }
 
 .titel {
